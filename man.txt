@@ -1,0 +1,14 @@
+user1="a"
+user2="b"
+user3="c"
+psd="12"
+username=input("enter username")
+pswrd=input("enter paswrd")
+if username==user1 and pswrd==psd:
+    print("hi"+username)
+elif username==user2 and pswrd==psd:
+        print("hi"+username)
+elif username==user3 and pswrd==psd:
+           print("hi"+username)
+else:
+    print("wrong details")
